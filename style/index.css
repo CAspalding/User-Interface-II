@@ -267,7 +267,7 @@ button:hover {
 
     #projects {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         margin-bottom: 1rem;
     }
 
@@ -279,6 +279,15 @@ button:hover {
     }
 
     #projects img {
-        width: 70%;
+        height: auto;
+        width: 75%;
     }
-}
+
+    #allOfIt {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+   
+;
