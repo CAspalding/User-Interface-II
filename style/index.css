@@ -249,6 +249,7 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
     }
 
     #projectSlideshow img {
@@ -264,4 +265,20 @@ button:hover {
         align-items: center;
     }
 
+    #projects {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media(max-width: 500px) {
+    #nestedTop {
+        margin: 2rem;
+    }
+
+    #projects img {
+        width: 70%;
+    }
 }
